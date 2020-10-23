@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="normalise.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <title>WebDev</title>
+</head>
+
+<body>
+  <h1 class="webdev">Webdev</h1>
+
+  <!--Header-->
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <!--Nav-->
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link header__nav-link_active">About</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Syllabus</a>
+          </li>
+          <li class="header__nav-item header__nav-item_logo">
+            <a href="#" class="header__nav-link header__nav-link_logo"><img class="header__logo" src="assets/logo.svg"
+                alt="logo" /></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">Projects</a>
+          </li>
+          <li class="header__nav-item">
+            <a href="#" class="header__nav-link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="header__banner">
+        <h2 class="header__banner-title">your life is WebDev</h2>
+        <p class="header__banner-description">
+          Whatever the approach to development may be, the final program must
+          satisfy some fundamental properties
+        </p>
+        <a href="#" class="button button_header">get started</a>
+        <ul class="header__banner-social-list">
+          <li class="header__banner-social-item">
+            <a href="#" class="header__banner-social-link">
+              <img src="assets/mail.svg" alt="mail" />
+            </a>
+          </li>
+          <li class="header__banner-social-item">
+            <a href="#" class="header__banner-social-link">
+              <img src="assets/facebook.svg" alt="facebook" />
+            </a>
+          </li>
+          <li class="header__banner-social-item">
+            <a href="#" class="header__banner-social-link">
+              <img src="assets/insta.svg" alt="insta" />
+            </a>
+          </li>
+          <li class="header__banner-social-item">
+            <a href="#" class="header__banner-social-link">
+              <img src="assets/telegram.svg" alt="telegram" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--Represent-->
+  <section class="container">
+    <div class="represent">
+      <div class="represent__info">
+        <h2 class="represent__info-title">
+          Rappresent your idea with a smart Design
+        </h2>
+
+        <p class="represent__info-description">
+          Tasks accompanying and related to programming include: testing,
+          debugging, source code maintenance,
+          <strong>implementation of build systems</strong>, and management of derived
+          artifacts, such as the machine code of computer programs.
+        </p>
+        <a href="#" class="button button_represent">get started</a>
+      </div>
+
+      <!--Не поместится картинка, в Figma блок ограничен не корректно-->
+      <div class="represent__img">
+        <img src="assets/content-image-1.png" alt="represent" class="represent__photo" />
+      </div>
+    </div>
+  </section>
+
+  <!--Community-->
+  <section class="community">
+    <div class="wrapper">
+      <div class="community__inner">
+        <div class="community__info">
+          <div class="community__info-author">
+            <img src="assets/photo-our-community.png" alt="author" />
+          </div>
+          <h3 class="community__info-title">our community</h3>
+          <p class="community__info-description">
+            A hacker is any skilled computer expert that uses their technical
+            knowledge to overcome a problem, but it can also mean a security
+            hacker in common language
+          </p>
+        </div>
+        <div class="community__slider">
+          <div class="community__slider-nav">
+            <span class="community__slider-arrow-prew"></span>
+            <span class="community__slider-num-first">1</span>
+            <span class="community__slider-num-separate">/</span>
+            <span class="community__slider-num-all">5</span>
+            <span class="community__slider-arrow-next"></span>
+          </div>
+          <div class="community__slider-items">
+            <img class="community__slider-item" src="assets/slider-item-1.png" alt="slider-item" />
+            <img class="community__slider-item" src="assets/slider-item-2.png" alt="slider-item" />
+            <img class="community__slider-item" src="assets/slider-item-3.png" alt="slider-item" />
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Implement-->
+  <div class="container">
+    <section class="implement">
+      <div class="implement__img">
+        <img src="assets/content-image-1.1.png" alt="implement" class="implement__photo" />
+      </div>
+      <div class="implement__info">
+        <h2 class="implement__info-title">Implement right Code</h2>
+
+        <p class="implement__info-description">
+          These might be considered part of the <strong>programming process</strong>,
+          but often the term software development is used for this larger
+          process with the term programming, implementation
+        </p>
+        <a href="#" class="button button_implement">Learn more</a>
+      </div>
+    </section>
+  </div>
+
+  <!--Sign up-->
+  <section class="sing-up">
+    <div class="container">
+      <div class="sing-up__inner">
+        <h3 class="sing-up__title">sign up for our newsletter</h3>
+        <div class="sing-up__form">
+          <input type="email" name="email" class="sing-up__input" placeholder="E-mail" />
+          <button class="sing-up__button"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Download-->
+  <section class="download">
+    <div class="container">
+      <div class="download__inner">
+        <h3 class="download__title">Download the App</h3>
+        <p class="download__description">
+          Machine code was the language of early programs, written in the
+          instruction set of the particular machine, often in binary notation.
+        </p>
+        <div class="download__buttons">
+          <div class="download__button-block">
+            <button class="download__button download__button_apple">
+              apple store
+            </button>
+            <div class="download__icon download__icon_apple"></div>
+          </div>
+          <div class="download__button-block">
+            <button class="download__button download__button_android">
+              Play Market
+            </button>
+            <div class="download__icon download__icon_android"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer__inner">
+      <ul class="footer__nav-list">
+        <li class="footer__nav-item">
+          <a href="#" class="footer__nav-link">Credits</a>
+        </li>
+        <li class="footer__nav-item">
+          <a href="#" class="footer__nav-link">Privacy</a>
+        </li>
+        <li class="footer__nav-item">
+          <a href="#" class="footer__nav-link">Our teams</a>
+        </li>
+      </ul>
+
+      <div class="footer__logo">
+        <img src="assets/logo.svg" alt="logo" />
+      </div>
+
+      <p class="footer__copyright">by TonYem for RSS at 2020</p>
+    </div>
+  </footer>
+</body>
+
+</html>
